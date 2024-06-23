@@ -1,4 +1,11 @@
-Bot: 
+# Bot 
+
+This bot is developed using Flask, Python, HTML, CSS, and JavaScript. It can engage in normal conversations and provide answers. Meanwhile, it continuously makes API calls, which you can command.
+
+Comand #1: Weather.
+Comand #2: Photo.
+Comand #3: Joke. 
+Comand #4: Inspire. 
 
 
 <img width="1441" alt="Screenshot 2024-06-23 at 1 22 28 PM" src="https://github.com/delvinsalman/Bot/assets/90351386/9c16667b-e5de-42de-9799-2d1cf7e97dc6">
