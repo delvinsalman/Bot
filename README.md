@@ -8,6 +8,8 @@ Commands:
 3. Joke
 4. Inspire
 
+Or just say Hey, and start a convo!.
+
 
 <img width="1441" alt="Screenshot 2024-06-23 at 1 22 28 PM" src="https://github.com/delvinsalman/Bot/assets/90351386/9c16667b-e5de-42de-9799-2d1cf7e97dc6">
 <img width="1441" alt="Screenshot 2024-06-23 at 1 22 55 PM" src="https://github.com/delvinsalman/Bot/assets/90351386/d86c4bcc-bc2e-4ef2-9a71-4b9988c9509e">
