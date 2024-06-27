@@ -2,6 +2,8 @@
 
 This bot is developed using Flask, Python, HTML, CSS, and JavaScript. It can engage in normal conversations and provide answers. Meanwhile, it continuously makes API calls, which you can command.
 
+The bot uses a photo generator API and a weather API. Some of the other commands are built within the system.
+
 Commands:
 1. Weather
 2. Photo
