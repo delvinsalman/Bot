@@ -1,4 +1,4 @@
-# ChatBot - 
+# ChatBot 
 Madr using Flask, Python, DiabloGPT, Javascript, HTML/CSS.
 
 # Overview
