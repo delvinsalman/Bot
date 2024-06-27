@@ -1,14 +1,13 @@
 # Bot 
 
-This bot is developed using Flask, Python, HTML, CSS, and JavaScript. It can engage in normal conversations and provide answers. Meanwhile, it continuously makes API calls, which you can command.
-
-The bot uses a photo generator API and a weather API. Some of the other commands are built within the system.
+This bot is developed using Flask, Python, HTML, CSS, and JavaScript. It can engage in normal conversations and provide answers. Meanwhile, it continuously makes API calls, which you can command. The bot uses a photo generator API and a weather API. Some of the other commands are built within the system like telling you a joke or writing a quote. For example, if you say the word "weather" and name the city/place, it will tell you the exact weather updated. If you say the word photo it generates you a random photo to save. Apart from that it operates like a regular bot responding to regular questions and conversation like chats. 
 
 Commands:
-1. Weather
-2. Photo
-3. Joke
-4. Inspire
+
+1. Weather - Gives you the weather anywhere, any time.
+2. Photo - Generates you a random photo. 
+3. Joke - Tells you a joke.
+4. Inspire - Tells you a quote. 
 
 Or just say Hey, and start a convo!.
 
