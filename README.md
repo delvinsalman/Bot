@@ -18,6 +18,7 @@ Or just say Hey, and start a convo!.
 
 # How to Install & Deploy
 
+_Remember to use your terminal to install, run and or check if you have these items installed._
 
 ## Install
 
