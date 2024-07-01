@@ -14,8 +14,9 @@ Made using Flask, Python, DiabloGPT, Javascript, HTML/CSS. This bot is developed
 
 ## Deploy
 
-cd into your directory
-python app.py
+First type, "cd into your directory"
+
+Second type, "python app.py"
 
 
 Commands:
