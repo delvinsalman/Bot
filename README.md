@@ -15,3 +15,17 @@ Or just say Hey, and start a convo!.
 <img width="1441" alt="Screenshot 2024-06-23 at 1 22 55 PM" src="https://github.com/delvinsalman/Bot/assets/90351386/d86c4bcc-bc2e-4ef2-9a71-4b9988c9509e">
 <img width="1441" alt="Screenshot 2024-06-23 at 1 23 06 PM" src="https://github.com/delvinsalman/Bot/assets/90351386/ce579e77-be7a-4392-9ac5-b7987bac4cfb">
 <img width="1441" alt="Screenshot 2024-06-23 at 1 23 24 PM" src="https://github.com/delvinsalman/Bot/assets/90351386/9ec07cbd-7e40-4993-8bfc-5db9ba05ffc3">
+
+
+# Install and Deploying
+
+**Install Python** https://www.dataquest.io/blog/installing-python-on-mac/
+
+**Install pip** https://phoenixnap.com/kb/install-pip-mac
+
+**Installing Flask** - pip install -r requirements.txt
+
+## Deploying
+
+cd into your directory
+python app.py
