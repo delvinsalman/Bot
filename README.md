@@ -20,6 +20,10 @@ Or just say Hey, and start a convo!.
 
 _Remember to use your terminal to install, run and or check if you have these items installed._
 
+## Download
+
+First download the zip folder and then proceed to open it using any IDE of your choose.
+
 ## Install
 
 **Install Python** https://www.dataquest.io/blog/installing-python-on-mac/
