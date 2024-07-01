@@ -36,4 +36,4 @@ Second type, "python app.py"
 
 ## Microsoft/DialoGPT
 
-For more information on the model used to help operate this bot, check out https://huggingface.co/microsoft/DialoGPT-medium
+For more info on the model behind this bot, visit https://huggingface.co/microsoft/DialoGPT-medium
