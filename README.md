@@ -38,3 +38,8 @@ Second type, "python app.py"
 ## Microsoft/DialoGPT
 
 For more info on the model behind this bot, visit https://huggingface.co/microsoft/DialoGPT-medium
+
+## Successful Launch  
+
+This is how your terminal should look if you have successfully launched to system right. 
+<img width="1201" alt="Screenshot 2024-07-01 at 11 45 40 AM" src="https://github.com/delvinsalman/Bot/assets/90351386/3c54775b-6d0a-4d30-8d74-ab2c14ec8029">
