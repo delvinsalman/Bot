@@ -28,9 +28,9 @@ First download the zip folder and then proceed to open it using any IDE of your 
 
 ## Install
 
-**Install Python** - https://www.dataquest.io/blog/installing-python-on-mac/
+**Install Python** - https://www.dataquest.io/blog/installing-python-on-mac/ ┃ (python3 --version) - if you already have, check which version. 
 
-**Install pip** - https://phoenixnap.com/kb/install-pip-mac
+**Install pip** - https://phoenixnap.com/kb/install-pip-mac ┃ (pip --version) - if you already have, check which version. 
 
 **Installing Flask** - pip install -r requirements.txt
 
