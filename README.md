@@ -34,7 +34,7 @@ First download the zip folder and then proceed to open it using any IDE of your 
 
 **Installing Flask** - pip install -r requirements.txt
 
-(python3 --version) / (pip --version) - If you already have, check which version in terminal. 
+**_(python3 --version) / (pip --version) - If you already have, check which version in terminal._**
 
 ## Deploy
 
