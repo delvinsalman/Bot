@@ -1,4 +1,0 @@
-
-
-
-                <div class="d-flex justify-content-end mb-4"><div class="msg_cotainer_send">hey<span class="msg_time_send">12:40</span></div><div class="img_cont_msg"><img src="https://static-00.iconduck.com/assets.00/user-circle-single-icon-511x512-u5oss8rx.png" class="rounded-circle user_img_msg"></div></div><div class="d-flex justify-content-start mb-4"><div class="img_cont_msg"><img src="https://d1muf25xaso8hp.cloudfront.net/https%3A%2F%2Fmeta-q.cdn.bubble.io%2Ff1672952221146x417310664985390140%2FChatbot.png?w=&amp;h=&amp;auto=compress&amp;dpr=1&amp;fit=max" class="rounded-circle user_img_msg"></div><div class="msg_cotainer">Hey, how's it going?<span class="msg_time">12:40</span></div></div>
