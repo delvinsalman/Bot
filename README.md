@@ -1,7 +1,7 @@
 # AI ChatBot 
 
 ## Overview
-This bot is developed using Flask, Python, Gemini AI, JavaScript, HTML, and CSS. It is designed to engage in natural conversations and provide accurate answers. The bot continuously makes API calls and can be commanded to perform various tasks. Powered by advanced AI, it can answer AI-related questions, analyze photos in detail, and maintain meaningful conversations. Its goal is to deliver an exceptional user experience, functioning as a typical AI chatbot with enhanced capabilities for in-depth interactions.
+This bot is developed using Flask, Python, Gemini AI, JavaScript, HTML, and CSS. It is designed to engage in natural conversations and provide accurate answers. The bot continuously makes API calls and can be commanded to perform various tasks. Powered by advanced Gemini AI, it can answer AI-related questions, analyze photos in detail, and maintain meaningful conversations. Its goal is to deliver an exceptional user experience, functioning as a typical AI chatbot with enhanced capabilities for in-depth interactions.
 
 
 ## Basic Conversation
