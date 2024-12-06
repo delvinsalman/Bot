@@ -5,16 +5,16 @@ This bot is developed using Flask, Python, Gemini AI, JavaScript, HTML, and CSS.
 
 
 ## Basic Conversation
-<img width="1511" alt="Screenshot 2024-12-06 at 11 26 51 AM" src="https://github.com/user-attachments/assets/07ff4d44-81b6-4251-b6dc-47c9be6d959a">
+<img width="1508" alt="Screenshot 2024-12-06 at 4 55 03 PM" src="https://github.com/user-attachments/assets/9c6be57f-7219-45d8-b32b-c85a4fb3e45a">
 
 ## Photo Analysis AI
-<img width="1511" alt="Screenshot 2024-12-06 at 11 28 16 AM" src="https://github.com/user-attachments/assets/60693c56-055a-47d2-a6f3-5131949e7cac">
+<img width="1508" alt="Screenshot 2024-12-06 at 4 56 25 PM" src="https://github.com/user-attachments/assets/4fe931c8-093b-4af7-a60f-f78ea41f9a3c">
 
 ## Math Solving
-<img width="1511" alt="Screenshot 2024-12-06 at 11 29 40 AM" src="https://github.com/user-attachments/assets/f966def5-bb81-4ba1-8ed1-3cbc24bb84a2">
+<img width="1508" alt="Screenshot 2024-12-06 at 4 57 58 PM" src="https://github.com/user-attachments/assets/f44ae9fa-c4da-4d4f-8d5a-e3b7352de324">
 
 ## Answering Questions
-<img width="1511" alt="Screenshot 2024-12-06 at 11 30 27 AM" src="https://github.com/user-attachments/assets/e318292f-dd5a-4e1a-907f-d2b2a093bb9a">
+<img width="1508" alt="Screenshot 2024-12-06 at 5 00 16 PM" src="https://github.com/user-attachments/assets/f704d680-36a6-47bd-9abb-067dd5724778">
 
 
 
