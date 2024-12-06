@@ -20,6 +20,10 @@ let user = {
   }
 };
 
+
+let userSound = new Audio("/static/S2.mp3");
+let botSound = new Audio("/static/S1.mp3");
+
 async function generateResponse(aiChatBox) {
   let text = aiChatBox.querySelector(".ai-chat-area");
   let RequestOption = {
@@ -42,6 +46,7 @@ async function generateResponse(aiChatBox) {
     let data = await response.json();
     let apiResponse = data.candidates[0].content.parts[0].text.replace(/\*\*(.*?)\*\*/g, "$1").trim();
     text.innerHTML = apiResponse;
+    botSound.play();  
   } catch (error) {
     console.log(error);
     text.innerHTML = "Sorry, something went wrong!";
@@ -75,6 +80,8 @@ function handlechatResponse(userMessage) {
   chatContainer.appendChild(userChatBox);
 
   chatContainer.scrollTo({ top: chatContainer.scrollHeight, behavior: "smooth" });
+
+  userSound.play();  
 
   setTimeout(() => {
     let html = `<div class="chat-row bot-row">

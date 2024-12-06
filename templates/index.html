@@ -16,12 +16,17 @@
        data-user-icon="{{ url_for('static', filename='userr.webp') }}"
        data-bot-icon="{{ url_for('static', filename='go.png') }}">
     
-    <header class="chat-header">
-      <div class="avatar">
-        <img src="{{ url_for('static', filename='go.png') }}" alt="Image">
-      </div>
-      <h2>Chatbot Assistant - Powered By Gemini AI</h2>
-    </header>
+       <header class="chat-header">
+        <div class="avatar">
+          <img src="{{ url_for('static', filename='go.png') }}" alt="Bot Avatar" class="bot-icon">
+          <span class="online-status"></span>
+        </div>
+        <div class="header-text">
+          <h2>AI Chatbot Assistant</h2>
+          <p class="powered-by">Powered by Gemini AI & Flask</p>
+        </div>
+      </header>
+      
 
     <div class="chat-container"></div>
 
