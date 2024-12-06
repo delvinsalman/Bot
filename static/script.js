@@ -3,10 +3,9 @@ let submitbtn = document.querySelector("#send-btn");
 let chatContainer = document.querySelector(".chat-container");
 let imagebtn = document.querySelector("#image");
 let image = document.querySelector("#image img");
-let imageinput = document.querySelector("#file-upload"); // Updated to match the file input ID
-let attachBtn = document.querySelector("#attach-btn");  // Button to trigger file input
+let imageinput = document.querySelector("#file-upload");
+let attachBtn = document.querySelector("#attach-btn");
 
-// Retrieve user and bot icon URLs from data attributes in HTML
 let chatAppContainer = document.querySelector('.chat-app');
 let userIcon = chatAppContainer.dataset.userIcon;
 let botIcon = chatAppContainer.dataset.botIcon;
@@ -21,7 +20,6 @@ let user = {
   }
 };
 
-// Function to generate a response from the API
 async function generateResponse(aiChatBox) {
   let text = aiChatBox.querySelector(".ai-chat-area");
   let RequestOption = {
@@ -55,7 +53,6 @@ async function generateResponse(aiChatBox) {
   }
 }
 
-// Function to create a new chat box (user or AI)
 function createChatBox(html, classes) {
   let div = document.createElement("div");
   div.innerHTML = html;
@@ -63,11 +60,9 @@ function createChatBox(html, classes) {
   return div;
 }
 
-// Function to handle chat response
 function handlechatResponse(userMessage) {
   user.message = userMessage;
 
-  // User chat box with green bubble
   let html = `<div class="chat-row user-row">
     <img src="${userIcon}" alt="User Icon" class="chat-icon">
     <div class="user-chat-area">
@@ -82,10 +77,9 @@ function handlechatResponse(userMessage) {
   chatContainer.scrollTo({ top: chatContainer.scrollHeight, behavior: "smooth" });
 
   setTimeout(() => {
-    // Bot chat box with blue bubble and loading icon
     let html = `<div class="chat-row bot-row">
       <div class="ai-chat-area">
-        <img src="/static/Loading.webp" alt="Loading" class="load" width="50px"> <!-- Loading icon -->
+        <img src="/static/Loading.webp" alt="Loading" class="load" width="50px">
       </div>
       <img src="${botIcon}" alt="Bot Icon" class="chat-icon">
     </div>`;
@@ -95,25 +89,22 @@ function handlechatResponse(userMessage) {
   }, 600);
 }
 
-// Handle "Enter" key event for sending a message
 prompt.addEventListener("keydown", (e) => {
   if (e.key == "Enter" && !e.shiftKey) {
-    e.preventDefault();  // Prevents the default Enter key behavior (new line)
-    if (prompt.value.trim()) {  // Ensure the message is not empty
+    e.preventDefault();
+    if (prompt.value.trim()) {
       handlechatResponse(prompt.value);
     }
   }
 });
 
-// Submit button click event
 submitbtn.addEventListener("click", () => {
   let message = prompt.value.trim();
-  if (message || user.file.data) {  // Ensure the message or image is not empty
+  if (message || user.file.data) {
     handlechatResponse(message);
   }
 });
 
-// Image input change event (for file attachment)
 imageinput.addEventListener("change", () => {
   const file = imageinput.files[0];
   if (!file) return;
@@ -131,7 +122,6 @@ imageinput.addEventListener("change", () => {
   reader.readAsDataURL(file);
 });
 
-// Image button click event to open file input dialog
 attachBtn.addEventListener("click", () => {
-  imageinput.click();  // Triggers the file input when the button is clicked
+  imageinput.click();
 });
