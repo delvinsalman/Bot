@@ -1,0 +1,226 @@
+/* Reset and Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik', sans-serif;
+  background-color: #f3f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 20px;
+  overflow: hidden;
+  position: relative;  /* Ensure the background video is positioned behind content */
+  color: rgb(0, 0, 0); /* Set default text color to white */
+
+}
+
+/* Background video styles */
+#background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Make sure the video covers the entire screen */
+  z-index: -1; /* Position the video behind the other content */
+}
+
+.chat-app {
+  position: relative;
+  width: 800px; /* Increased width */
+  max-width: 90%;
+  height: 600px; /* Increased height */
+  max-height: 90vh; /* Max height */
+  background-color: rgba(255, 255, 255, 0.9); /* Slight opacity */
+  background-image: 
+    url('/static/white.jpg'); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the entire element */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image repetition */
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  backdrop-filter: blur(2px); /* Apply background blur */
+}
+
+
+.chat-header {
+  background-color: #673ab7;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.chat-header .avatar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chat-header h2 {
+  font-size: 20px;
+}
+
+.chat-container {
+  flex-grow: 1;
+  overflow-y: auto; /* Enable vertical scrolling */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-height: calc(100% - 100px); /* Adjusted for increased space */
+}
+
+.chat-message {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  max-width: 80%;
+}
+
+.user-message {
+  margin-left: auto;
+  text-align: right;
+  background-color: #e0ffe5;
+}
+
+.bot-message {
+  background-color: #f0f0f0;
+}
+
+.chat-bubble {
+  padding: 12px 15px;
+  border-radius: 20px;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.user-message .chat-bubble {
+  background-color: #d4edda;
+}
+
+.bot-message .chat-bubble {
+  background-color: #f1f1f1;
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: #f9f9f9;
+  gap: 10px;
+  border-top: 1px solid #e6e6e6;
+}
+
+#prompt {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 16px;
+}
+
+#send-btn {
+  padding: 12px 20px;
+  background-color: #673ab7;
+  color: #fff;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#send-btn:hover {
+  background-color: #562ba2;
+}
+
+#attachment button {
+  background-color: #efefef;
+  border: none;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#attachment button:hover {
+  background-color: #ddd;
+}
+
+/* User and bot icon styles */
+.chat-icon {
+  width: 50px;  /* Smaller icon size */
+  height: 50px; /* Smaller icon size */
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px; /* Space between icon and text */
+}
+
+/* Adjust chat-row for better alignment */
+.chat-row {
+  display: flex;
+  align-items: center;  /* Align text and icon vertically */
+  gap: 10px; /* Space between icon and text */
+}
+
+.user-row .user-chat-area, .bot-row .ai-chat-area {
+  max-width: calc(100% - 40px);  /* Ensure text area doesn't overlap with icon */
+}
+
+.bot-row {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end; /* Align to the right */
+  gap: 10px;
+}
+
+.bot-chat-area {
+  max-width: calc(100% - 40px); /* Ensures text area doesn't overlap with icon */
+  text-align: right; /* Align the text to the right */
+}
+
+.bot-message .chat-bubble {
+  background-color: #f1f1f1;
+  text-align: right; /* Align bot text to the right */
+}
+
+/* Image size for attachments */
+.chooseimg {
+  max-width: 300px;  /* Set a maximum width */
+  max-height: 300px; /* Set a maximum height */
+  width: auto;
+  height: auto;
+  object-fit: contain;
+}
+/* Chat bubble styles for user messages */
+.user-chat-area {
+  background-color: #d4edda; /* Light green */
+  color: #000; /* Black text */
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 80%; /* Limit the width */
+  word-wrap: break-word;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Chat bubble styles for bot messages */
+.ai-chat-area {
+  background-color: #cfe7f9; /* Light blue */
+  color: #000; /* Black text */
+  padding: 10px 15px;
+  border-radius: 20px;
+  max-width: 80%; /* Limit the width */
+  word-wrap: break-word;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  text-align: left; /* Ensure text is left-aligned */
+}

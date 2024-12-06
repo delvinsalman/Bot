@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot UI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+  <!-- Background video -->
+  <video autoplay muted loop id="background-video">
+    <source src="{{ url_for('static', filename='video.mp4') }}" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <div class="chat-app" 
+       data-user-icon="{{ url_for('static', filename='userr.webp') }}"
+       data-bot-icon="{{ url_for('static', filename='go.png') }}">
+    
+    <header class="chat-header">
+      <div class="avatar">
+        <img src="{{ url_for('static', filename='go.png') }}" alt="Image">
+      </div>
+      <h2>Chatbot Assistant - Powered By Gemini AI</h2>
+    </header>
+
+    <div class="chat-container">
+      <!-- Chat messages dynamically added here -->
+    </div>
+
+    <footer class="input-container">
+      <textarea id="prompt" placeholder="Type a message..."></textarea>
+      <button id="send-btn">Send</button>
+      <div id="attachment">
+        <input type="file" id="file-upload" style="display: none;" />
+        <button id="attach-btn">Attach</button>
+      </div>
+    </footer>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>
