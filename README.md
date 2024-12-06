@@ -1,22 +1,15 @@
 # ChatBot 
 
 ## Overview
-Made using Flask, Python, DiabloGPT, Javascript, HTML/CSS. This bot is developed using Flask, Python, HTML, CSS, JavaScript and the DiabloGPT operating system. It can engage in normal conversations and provide answers. Meanwhile, it continuously makes API calls, which you can command. The bot uses a photo generator API and a weather API. Some of the other commands are built within the system like telling you a joke or writing a quote. For example, if you say the word **"weather"** and name the city/place, it will tell you the exact weather updated. If you say the word **"photo"** it generates you a random photo to save. Apart from that it operates like a regular bot responding to regular questions and conversation like chats. 
-
-Commands:
-
-1. **Weather** - Gives you the weather anywhere, any time.
-2. **Photo** - Generates you a random photo. 
-3. **Joke** - Tells you a joke.
-4. **Inspire** - Tells you a quote. 
-
-Or just say Hey, and start a convo!.
+This bot is developed using Flask, Python, Gemini AI, JavaScript, HTML, and CSS. It is designed to engage in natural conversations and provide accurate answers. The bot continuously makes API calls and can be commanded to perform various tasks. Powered by advanced AI, it can answer AI-related questions, analyze photos in detail, and maintain meaningful conversations. Its goal is to deliver an exceptional user experience, functioning as a typical AI chatbot with enhanced capabilities for in-depth interactions.
 
 
-<img width="1441" alt="Screenshot 2024-06-23 at 1 22 28 PM" src="https://github.com/delvinsalman/Bot/assets/90351386/9c16667b-e5de-42de-9799-2d1cf7e97dc6">
-<img width="1441" alt="Screenshot 2024-06-23 at 1 22 55 PM" src="https://github.com/delvinsalman/Bot/assets/90351386/d86c4bcc-bc2e-4ef2-9a71-4b9988c9509e">
-<img width="1441" alt="Screenshot 2024-06-23 at 1 23 06 PM" src="https://github.com/delvinsalman/Bot/assets/90351386/ce579e77-be7a-4392-9ac5-b7987bac4cfb">
-<img width="1441" alt="Screenshot 2024-06-23 at 1 23 24 PM" src="https://github.com/delvinsalman/Bot/assets/90351386/9ec07cbd-7e40-4993-8bfc-5db9ba05ffc3">
+<img width="1511" alt="Screenshot 2024-12-06 at 9 32 03 AM" src="https://github.com/user-attachments/assets/f679dabe-57be-465a-add0-9f34062ce31c">
+<img width="1511" alt="Screenshot 2024-12-06 at 9 35 02 AM" src="https://github.com/user-attachments/assets/d34cd7ff-8a07-477c-a758-6080254d81f6">
+<img width="1511" alt="Screenshot 2024-12-06 at 9 35 52 AM" src="https://github.com/user-attachments/assets/c43793aa-82be-485b-ba70-a9fa539b1691">
+<img width="1511" alt="Screenshot 2024-12-06 at 9 37 12 AM" src="https://github.com/user-attachments/assets/61264414-4757-461e-a487-6ee6eeee05c7">
+
+
 
 # How to Install & Deploy
 
@@ -43,9 +36,9 @@ First type, "cd into your directory"
 Second type, "python app.py"
 
 
-## Microsoft/DialoGPT
+## Gemini API
 
-For more info on the model behind this bot, visit https://huggingface.co/microsoft/DialoGPT-medium
+For more info on the model behind this bot, visit [https://huggingface.co/microsoft/DialoGPT-medium](https://ai.google.dev/)
 
 ## Successful Launch  
 
