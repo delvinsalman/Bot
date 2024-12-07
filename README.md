@@ -10,6 +10,9 @@ This bot is developed using Flask, Python, Gemini AI, JavaScript, HTML, and CSS.
 ## Photo Analysis AI
 <img width="1508" alt="Screenshot 2024-12-06 at 4 56 25 PM" src="https://github.com/user-attachments/assets/4fe931c8-093b-4af7-a60f-f78ea41f9a3c">
 
+## Sound Analysis AI
+<img width="1508" alt="Screenshot 2024-12-07 at 1 52 55 PM" src="https://github.com/user-attachments/assets/79d8aca9-6e69-4646-9bab-0f31fb1dc47b">
+
 ## Math Solving
 <img width="1508" alt="Screenshot 2024-12-06 at 4 57 58 PM" src="https://github.com/user-attachments/assets/f44ae9fa-c4da-4d4f-8d5a-e3b7352de324">
 
