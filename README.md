@@ -56,7 +56,7 @@ Users can request the bot to solve complex math problems and receive step-by-ste
 ### ❓ **Answering Questions**  
 The bot provides direct, accurate answers to any query, ranging from trivia to AI-based logic.  
 > **Example Usage**:  
-- "Who is the president of Canada?"  
+- "What is the capital city of Canada?"  
 - "How does AI work?"  
 
 ![Answering Questions](https://github.com/user-attachments/assets/f704d680-36a6-47bd-9abb-067dd5724778)  
