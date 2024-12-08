@@ -2,7 +2,6 @@
 
 An interactive AI chatbot developed using **Flask, Python, Gemini AI, JavaScript, HTML, and CSS**. This bot engages in natural conversations, provides accurate answers, and performs complex tasks like **photo analysis, sound analysis, and math problem solving**. The bot is powered by **Gemini AI**, enabling detailed analysis, human-like responses, and advanced AI interactions.  
 
-> **Live Demo**: [View it here](https://delvinsalman.github.io/AI-ChatBot/)  
 
 ---
 
